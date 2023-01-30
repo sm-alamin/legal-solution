@@ -1,0 +1,100 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Custom Typography */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'EB Garamond', serif;
+    font-size: 72px;
+    font-weight: 800; 
+}
+h5{
+    font-size: 32px;
+}
+h6{
+    font-size: 24px;
+}
+p,a{
+    color:#707070;
+   
+}
+.text-grey{
+    color: #E7E7E7;
+}
+.btn-secondary{
+    background: #B68C5A;
+}
+/* header- banner section */
+.banner{
+    min-height:520px;
+    background-image: url("../images/banner.png"),linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.card:hover{
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+    border: 1px solid #E7E7E7;
+}
+
+/* testimonial section */
+.slider-img-1{
+    min-height: 500px;
+    background: rgba(17, 17, 17, 0.8);
+    background-image: url("../images/slider-1.png");
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+}
+.slider-img-2{
+    min-height: 500px;
+    background: rgba(17, 17, 17, 0.8);
+    background-image: url("../images/slider-2.jpg");
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+}
+.slider-img-3{
+    min-height: 500px;
+    background: rgba(17, 17, 17, 0.8);
+    background-image: url("../images/slider3.jpg");
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+}
+.slider-content p{
+    color: #F3F3F3;
+}
+
+/* Contact Us Section */
+.bg-whitesmoke{
+    background-color: #F3F3F3;
+}
+/* Our Team Section */
+ 
+  .team .member .social a {
+    color: #a2a2a2;
+    transition: 0.3s;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #bbbbbb;
+  }
+  
+  .team .member .social a:hover {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+  
+  .team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
